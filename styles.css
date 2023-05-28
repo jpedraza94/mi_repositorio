@@ -1,0 +1,247 @@
+header{
+    background-color: #2C3333;
+    padding: 50px;
+    margin: 5px;
+    font-family: Arial;
+}
+
+
+
+.titulo_principal{
+    font-family: Arial, Haettenschweiler, sans-serif;
+    margin: 1pX;
+    font-size:50px;
+    color:#fff;
+
+}
+
+.Slogan{
+    font-family: Arial;
+    font-weight: normal;
+    font-size:15px;
+    margin: 1pX;
+    color:#fff;
+}
+
+.contenedorlogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: right;
+}
+
+.logo_inicial{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+header nav{
+    text-align: center;
+    padding: 15px;
+    background-color: #0E8388;
+    margin: 5px;
+}
+
+header nav ul{
+    display: inline-block;
+    text-align: center;
+    background-color: #0E8388;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sec1{
+    width: auto;
+    height: 800px;
+    align-items: center;
+    background: url(/taller/img/descripcion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1{
+    color: #0b0b0b;
+    width: auto;
+    text-align: right;
+    position: relative;
+}
+
+.sec1text{
+    background-color: rgb(14, 131, 136, .5);
+    position: absolute;
+    padding: 2%;
+    top: 10px;
+    right: 20px;
+    width: 30%;
+}
+
+.sec1text p{
+    color: #3e3535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec1text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sec2text{
+    background-color: rgb(14, 131, 136, .5);
+    position: absolute;
+    padding: 2%;
+    bottom: 10px;
+    right: 20px;
+    width: 30%;
+}
+
+.sec2text p{
+    color: #3e3535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sec2{
+    position: relative;
+    height: auto;
+    right: 0px;
+    left:0px;
+    max-width: 100%;
+    padding: 0;
+    margin: 30px;
+    align-items: center;
+}
+
+.conte1{
+    width: 31%;
+    max-width: 100%;
+    display: inline-block;
+    margin: 17px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: #0b0b0b;
+}
+
+.imgmante{
+    max-width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.tex1 h2{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 15px;
+    max-width: 100%;
+}
+
+.conte1 .tex1{
+    max-width: 100%;
+    background-color: rgb(14, 131, 136);
+    padding: 0;
+    margin: 0;
+}
+
+.sec3{
+    height: auto;
+    display: inline-block;
+}
+
+.sec3 .sec31{
+    max-width: 1493px;
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+    align-items: center;
+}
+
+.sec3 .sec31 div{
+    max-width: 90%;
+    padding: 0px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.sec31 .texto{
+    width: 900px;
+    display: inline-block;
+    margin: 15px;
+    padding: 0;
+    top: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.sec31 .texto h2{
+    margin: 0px;
+    padding: 0;
+    top: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec31 .texto p{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.sec31 div img{
+    display: inline-block;
+    margin: 0;
+}
+
+.mapa{
+    max-width: 100%;
+}
+
+.redes .table{
+    width: 1200px;
+    right: 150px;
+}
+
+.imgredes{
+    margin: 15px;
+}
+
+main h2{
+    background-color: #0E8388;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cajas{
+    width: 100%;
+    display: inline-block;
+}
+
+.cajas div{
+    display: inline-block;
+    width: 33%;
+}
+

@@ -1,11 +1,64 @@
-header{
+
+header .navbar.bg-body-tertiary  {
+    padding: 0;
+}
+
+
+header .navbar.bg-body-tertiary .container-fluid {
+    background-color: #2C3333;
+    height: 60px;
+    margin: 0;
+}
+
+header .navbar.bg-body-tertiary .container-fluid .navbar-brand {
+    margin: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .navbar.bg-body-tertiary .container-fluid .navbar-brand .Conte1 {
+    background-color: #fff;
+    border-radius: 80%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 4px;
+}
+
+header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
+    background-color: #0E8388;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    height: 100px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+}
+
+.sec1{
+    width: auto;
+    height: 800px;
+    align-items: center;
+    background: url(./img/descripcion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* header{
     background-color: #2C3333;
     padding: 50px;
     margin: 5px;
     font-family: Arial;
 }
-
-
 
 .titulo_principal{
     font-family: Arial, Haettenschweiler, sans-serif;
@@ -243,5 +296,4 @@ main h2{
 .cajas div{
     display: inline-block;
     width: 33%;
-}
-
+} */

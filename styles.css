@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 header .navbar.bg-body-tertiary  {
     padding: 0;
 }
 
-
 header .navbar.bg-body-tertiary .container-fluid {
-    background-color: #2C3333;
+    background-color: #324949;
     height: 60px;
     margin: 0;
 }
@@ -41,119 +41,47 @@ header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
     color: #fff;
 }
 
-.sec1{
-    width: auto;
-    height: 800px;
+#sec1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background: url(./img/descripcion.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
-
-
-/* header{
-    background-color: #2C3333;
-    padding: 50px;
-    margin: 5px;
-    font-family: Arial;
+#sec1 .row .col-sm-12.col-lg-6,
+#sec1 .row .col-sm-12.col-lg-6 {
+    background-color: #0e848881;
 }
 
-.titulo_principal{
-    font-family: Arial, Haettenschweiler, sans-serif;
-    margin: 1pX;
-    font-size:50px;
-    color:#fff;
 
-}
-
-.Slogan{
-    font-family: Arial;
-    font-weight: normal;
-    font-size:15px;
-    margin: 1pX;
-    color:#fff;
-}
-
-.contenedorlogo{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #fff;
-    float: right;
-}
-
-.logo_inicial{
-    width: auto;
-    height: auto;
-    max-width: 90%;
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-header nav{
-    text-align: center;
-    padding: 15px;
-    background-color: #0E8388;
-    margin: 5px;
-}
-
-header nav ul{
-    display: inline-block;
-    text-align: center;
-    background-color: #0E8388;
-
-}
-
-header nav ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-}
-
-header nav ul li a{
+#sec1 .row .col-sm-12.col-lg-6 h1 {
     color: #fff;
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
     font-weight: bold;
 }
 
-.sec1{
-    width: auto;
-    height: 800px;
-    align-items: center;
-    background: url(/taller/img/descripcion.jpg);
-    background-size: cover;
-    background-position: center;
+#sec1 .row .col-sm-12.col-lg-6 .Descripcion {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: small;
 }
 
-.sec1{
-    color: #0b0b0b;
-    width: auto;
-    text-align: right;
-    position: relative;
+footer{
+    background-color: #324949;
+    height: 90px;
 }
 
-.sec1text{
-    background-color: rgb(14, 131, 136, .5);
-    position: absolute;
-    padding: 2%;
-    top: 10px;
-    right: 20px;
-    width: 30%;
+footer p {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: small;
 }
 
-.sec1text p{
-    color: #3e3535;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.sec1text h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.sec2text{
+/* .sec2text{
     background-color: rgb(14, 131, 136, .5);
     position: absolute;
     padding: 2%;
@@ -181,9 +109,9 @@ header nav ul li a{
     padding: 0;
     margin: 30px;
     align-items: center;
-}
+} */
 
-.conte1{
+/* .conte1{
     width: 31%;
     max-width: 100%;
     display: inline-block;
@@ -192,7 +120,7 @@ header nav ul li a{
     text-align: center;
     align-items: center;
     border: #0b0b0b;
-}
+} */
 
 .imgmante{
     max-width: 100%;
@@ -210,11 +138,16 @@ header nav ul li a{
     max-width: 100%;
 }
 
-.conte1 .tex1{
+.sec2 .row .col-sm-12.col-lg-3 {
     max-width: 100%;
     background-color: rgb(14, 131, 136);
     padding: 0;
-    margin: 0;
+    margin: 40px;
+}
+
+.sec2 .row {
+    display: flex;
+    justify-content: center;
 }
 
 .sec3{
@@ -296,4 +229,4 @@ main h2{
 .cajas div{
     display: inline-block;
     width: 33%;
-} */
+} 

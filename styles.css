@@ -4,6 +4,7 @@ header .navbar.bg-body-tertiary  {
     padding: 0;
 }
 
+
 header .navbar.bg-body-tertiary .container-fluid {
     background-color: #324949;
     height: 60px;
@@ -25,6 +26,8 @@ header .navbar.bg-body-tertiary .container-fluid .navbar-brand .Conte1 {
     margin: 4px;
 }
 
+
+
 header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
     background-color: #0E8388;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,13 +35,11 @@ header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
     height: 100px;
 }
 
-#navbarNav{
-    display: flex;
-    justify-content: flex-end;
-}
 
 #navbarNav .navbar-nav .nav-item .nav-link.active {
     color: #fff;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #sec1{

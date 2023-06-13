@@ -44,7 +44,18 @@ header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid #navbarNav .na
 #sec1 .row .col-sm-12.col-lg-6 {
   background-color: rgba(14, 132, 136, 0.5058823529);
 }
-#sec1 .row .col-sm-12.col-lg-6 .h1 {
+#sec1 .row .col-sm-12.col-lg-6 .Tit {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+#sec1 .row .col-sm-12.col-lg-6 .Descripcion {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: small;
+}
+#sec1 .row .col-sm-12.col-lg-6 .Tit {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
